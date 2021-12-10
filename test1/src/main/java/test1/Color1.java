@@ -10,7 +10,7 @@ class Color1 {
 			return "青";
 			
 		} else {
-			return "1or2を入力して下さい！！！";
+			return "1or2を入力して下さい";
 		}
 	}
 	

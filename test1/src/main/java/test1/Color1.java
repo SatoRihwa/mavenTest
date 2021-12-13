@@ -1,6 +1,10 @@
 package test1;
 
 class Color1 {
+	public static void main(String[] args) {
+		System.out.println("成功！！");
+	}
+	
 	String getColor(int i) {
 
 		if (i == 1) {
@@ -10,7 +14,7 @@ class Color1 {
 			return "青";
 			
 		} else {
-			//
+			// sss
 			return "1or2を入力して下さい";
 		}
 	}

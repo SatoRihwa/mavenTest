@@ -2,7 +2,7 @@ package test1;
 
 class Color1 {
 	public static void main(String[] args) {
-		System.out.println("成功！！");
+		System.out.println("成功です！！");
 	}
 	
 	String getColor(int i) {

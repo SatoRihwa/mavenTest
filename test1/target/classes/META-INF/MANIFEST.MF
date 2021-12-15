@@ -1,5 +1,19 @@
 Manifest-Version: 1.0
 Built-By: VOA_User
 Build-Jdk: 17.0.1
+Class-Path: lib/jackson-databind-2.9.7.jar lib/jackson-annotations-2.9.0
+ .jar lib/jackson-core-2.9.7.jar
+Main-Class: test1.Color1
+Extension-List: jackson-databind jackson-annotations jackson-core
+jackson-databind-Extension-Name: jackson-databind
+jackson-databind-Implementation-Version: 2.9.7
+jackson-annotations-Extension-Name: jackson-annotations
+jackson-annotations-Implementation-Version: 2.9.0
+jackson-core-Extension-Name: jackson-core
+jackson-core-Implementation-Version: 2.9.7
+junit-Extension-Name: junit
+junit-Implementation-Version: 4.12
+hamcrest-core-Extension-Name: hamcrest-core
+hamcrest-core-Implementation-Version: 1.3
 Created-By: Maven Integration for Eclipse
 

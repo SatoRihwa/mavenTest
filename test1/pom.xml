@@ -16,7 +16,7 @@
     	<version>4.12</version>
     	<scope>test</scope>
 	</dependency>
-		<dependency>
+    <dependency>
     	<groupId>junit</groupId>
     	<artifactId>junit</artifactId>
     	<version>4.12</version>
@@ -34,6 +34,20 @@
           <source>1.8</source>
           <target>1.8</target>
         </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <configuration>
+              <archive>
+                <manifest>
+                  <mainClass>test1.Color1</mainClass>
+                  <addClasspath>true</addClasspath>
+                  <addExtensions>true</addExtensions>
+                  <classpathPrefix>lib</classpathPrefix>
+                </manifest>
+              </archive>
+            </configuration>
         </plugin>
       </plugins>
     </pluginManagement>
